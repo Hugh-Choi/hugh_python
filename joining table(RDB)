@@ -1,0 +1,3 @@
+select.animal,select.species,diet.food
+from animal join diet
+on animal.species=diet.species;
